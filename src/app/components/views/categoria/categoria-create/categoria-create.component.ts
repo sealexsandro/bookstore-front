@@ -29,4 +29,8 @@ export class CategoriaCreateComponent implements OnInit {
       }
     });
   }
+
+  cancela(): void{
+    this.router.navigate(['categorias']);
+  }
 }
